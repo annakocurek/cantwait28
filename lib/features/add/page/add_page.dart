@@ -38,7 +38,7 @@ class _AddPageState extends State<AddPage> {
           builder: (context, state) {
             return Scaffold(
               appBar: AppBar(
-                title: Text(state.saved ? 'true' : 'false'),
+                title: const Text('Add new upcomming title'),
                 actions: [
                   IconButton(
                     onPressed: _imageURL == null ||
